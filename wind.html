@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>pj</title>
+  <title>Bootstrap Demo</title>
 
   <!-- Bring in our bootstrap stylesheet -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -15,7 +15,7 @@
 <body>
   <!--- navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand">Latitude</a>
+    <a class="navbar-brand" href="#">Latitude</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -48,46 +48,46 @@
     
     <!--- end navbar -->
 
-
-    <div class="container">
+      <div class="container">
         <div class="row">
             <div class="col-md-8">
                 <div class="caption">
-                    <b>Summary: Latitude vs. X</b>
+                    <b>Summary: Latitude vs. Wind Speed</b>
                 </div>
             </div>
         </div>
     </div>
-
+  
     <div>
         <hr>
-
+  
     </div>
-
+  
     <div class="container">
-
+  
         <div class="row">
-
+  
             <div class="col-md-4">
                 
-              <p> This project took data from over five hundred cities in an attempt to understand the relationship between latitude and weather. We used OpenWeatherMap API to pull this data, and then created this analysis. 
-              Visualizations were made with Matplotlib in Python, after loading the data into a Pandas data frame.
-              </p>
+              <p> 
+                Our planet typically has very low wind speeds when compared to other planets with atmospheres. We benefit from this. Most of the wind speeds on this chart hover around the 0-5mph level. Winds of 30-40mph can cause large amounts of damage and should be avoided. Luckily, most of the cities in this dataset manage to keep their wind speed levels relatively low.                         </p>
               <br>
               <p>
-              We looked at multiple factors, with temperature showing the highest correlation. We also looked at Cloudiness, wind speed, and humidity. This site also provides the source data for your viewing pleasure. We also have provided explanations and descriptions where applicable. 
+                
+
+                There is, again, very little correlation in this data. The highest wind speeds also have very high latitude, so perhaps there is a relationship there. 
               </p>
-
-
-
-
+  
+  
+  
+  
     
-                <img src="Resources/images/Fig1.png">
+                <img src="Resources/images/Fig4.png">
                 
             </div>
-
-<!-- Gallery -->
-
+  
+  <!-- Gallery -->
+  
     <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
      <a href="temp.html">
       <img
@@ -121,15 +121,15 @@
       />
   </a>
     </div>
-
+  
   <!-- Gallery -->
-
+  
             
         </div>
-
+  
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-</body>
+  
+  </body>
